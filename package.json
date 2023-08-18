@@ -1,0 +1,14 @@
+{
+  "name": "ntp-websocket-server",
+  "version": "1.0.0",
+  "description": "A simple Node.js server that forwards NTP data via WebSockets.",
+  "dependencies": {
+    "ntp-client": "latest",
+    "ws": "latest"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Electrdiode",
+  "license": "ISC"
+}
